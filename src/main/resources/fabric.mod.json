@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "jade_feet",
+  "version": "${version}",
+  "name": "Jade Feet",
+  "description": "Don't worry to height",
+  "authors": [
+    "Default Snowman"
+  ],
+  "contact": {
+    "repo": "https://github.com/Administrator/Jade feet"
+  },
+  "license": "MIT",
+  "icon": "assets/jade_feet/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.netheriteqf.jadefeet.JadeFeet"
+    ]
+  },
+  "mixins": [
+    "jadefeet.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
